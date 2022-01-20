@@ -119,9 +119,9 @@ indexbtn:
 socialLink:
   qq: 12266847
   github: nz2003123
-  weibo:   # 微风穿云隙
+  weibo:   # 会飞的鱼
   email: 12266847@qq.com
-  zhihu:  # Hongwei
+  zhihu:  # 会飞的鱼
 
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.
 # You can add `toc: false` to the Front-matter of a post to turn off the TOC.
