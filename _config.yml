@@ -4,18 +4,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 洪卫的博客
-subtitle: 洪卫的博客
-description: 电子科技大学 | 电子与通信工程 | 计算机视觉
-keywords: UESTC CV DeepLearning MachineLearning 洪卫 sunhw Hongwei 计算机视觉 深度学习
-author: 洪卫
+title: niuzhe的博客
+subtitle: niuzhe的博客
+description: 南开大学 | 计算机科学与技术
+keywords: niuzhe 计算机 深度学习
+author: niuzhe
 language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 # url: https://shw2018.github.io/
-url: https://sunhwee.com
+url: https://niuzhe.pages.dev/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
