@@ -58,7 +58,7 @@ cover:
 dream:
   enable: false
   showTitle: true
-  title: 我的梦想
+  title: 我的博客
   text: 不是每个人都应该像我这样去建造一座水晶大教堂，但是每个人都应该拥有自己的梦想，设计自己的梦想，追求自己的梦想，实现自己的梦想。梦想是生命的灵魂，是心灵的灯塔，是引导人走向成功的信仰。有了崇高的梦想，只要矢志不渝地追求，梦想就会成为现实，奋斗就会变成壮举，生命就会创造奇迹。——罗伯·舒乐
 
 # Whether to display the musics.
@@ -111,17 +111,17 @@ indexbtn:
   enable: true
   name: Github
   icon: fa-github-alt
-  url: https://github.com/shw2018/
+  url: https://niuzhe.pages.dev
 
 # The configurations of the second line of home banner
 # icon/button will not show up if you leave the corresponding socialLink empty
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
-  qq: 948840751
-  github: shw2018
-  weibo: 3010027571  # 微风穿云隙
-  email: 948840751@qq.com
-  zhihu: hongwei-60-34 # Hongwei
+  qq: 12266847
+  github: nz2003123
+  weibo:   # 微风穿云隙
+  email: 12266847@qq.com
+  zhihu:  # Hongwei
 
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.
 # You can add `toc: false` to the Front-matter of a post to turn off the TOC.
@@ -181,8 +181,8 @@ clicklove:
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
   avatar: /medias/avatars/hwsun.jpg
-  career: 电子科技大学 | 电子与通信工程 | 计算机视觉
-  introduction: 我是电子科技大学信息与通信工程学院2018级硕士研究生。研究方向是计算机视觉，深度学习。我们实验室是智能视觉信息处理与通信实验室(IVIPC)，欢迎大家报考！
+  career: 南开大学 | 计算机科学与技术
+  introduction: 我是南开大学计算机科学与技术毕业生，欢迎大家报考！
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
@@ -256,14 +256,14 @@ postCalendar: true
 # the Gitalk config，default disabled
 # Gitalk 评论模块的配置，默认为不激活
 gitalk:
-  enable: true
-  owner: shw2018
-  repo: shw2018.github.io
+  enable: false
+  owner: nz2003123
+  repo: 
   oauth:
     clientId: XXXXXXXXXXXXXXXXXXXXXXXXXXXX
     clientSecret: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   admin:
-    - shw2018
+    - nz2003123
 
 # the Gitment config，default disabled
 # Gitment 评论模块的配置，默认为不激活
@@ -292,8 +292,8 @@ livere:
 # Valine 评论模块的配置，默认为不激活，如要使用，就请激活该配置项，并设置 appId 和 appKey.
 valine:
   enable: true
-  appId: XXXXXXXXXXXXXXXXXXXXXXXX
-  appKey: XXXXXXXXXXXXXXXXXXXXXX
+  appId: fgGe6A8uuqc31kyBTD2xXbxQ-gzGzoHsz
+  appKey: 6wN3I5llRAm6wXIqSvVnOdXF
   notify: true
   verify: true
   visitor: true
@@ -304,7 +304,7 @@ valine:
 # Whether to display fork me on github icon and link, default true, You can change it to your repo address
 # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
 githubLink:
-  enable: true
+  enable: false
   url: https://github.com/shw2018/shw2018.github.io
   title: Fork Me
 
@@ -353,7 +353,7 @@ libs:
     #jqcloud: /libs/jqcloud/jqcloud.css
     jqcloud: https://cdn.bootcss.com/jqcloud/1.0.4/jqcloud.min.css
     tocbot: /libs/tocbot/tocbot.css
-    #  洪卫 shw2018  add 2019.08.28
+    #  nz2003123  add 2022.1.20
     fancybox: https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.css
     justifiedGallery: https://cdn.staticfile.org/justifiedGallery/3.7.0/css/justifiedGallery.min.css
     share: /libs/share/css/share.min.css
@@ -393,13 +393,13 @@ libs:
     share: /libs/share/js/social-share.min.js
     matery: /js/matery.js
     search: /js/search.js
-    #  洪卫 shw2018  add 2019.09.10
+    #  nz2003123  add 2022.1.20
     sakura: /js/sakura.js  #这文件真大...里面编码了个图片
     fireworks: /js/fireworks.js
     wenzi: /js/wenzi.js
     xuehuapiaoluo: /js/xuehuapiaoluo.js
     instant.page: /js/instant.page.js
-    #  洪卫 shw2018  add 2019.09.15
+    #  nz2003123  add 2022.1.20
     canvas_nest: /libs/background/canvas-nest.js
     ribbon: /libs/background/ribbon.min.js
     ribbon_dynamic: /libs/background/ribbon-dynamic.js
@@ -453,32 +453,32 @@ featureImages:
   # pay（付费转载 pay for reprinting）
 
 reprint:
-  enable: fasle # whether enable reprint section 是否启用“转载规则限定模块”
+  enable: false # whether enable reprint section 是否启用“转载规则限定模块”
   default: cc_by
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
 baidu_push: true
 
-# 洪卫 shw2018 add 2019.09.09
+# nz2003123  add 2022.1.20
 # 页面樱花飘落动效
 sakura:
-  enable: true
+  enable: false
 
 # 鼠标点击烟花爆炸动效
 fireworks:
   enable: true
 
-# 洪卫 shw2018 add 2019.09.10
+# nz2003123  add 2022.1.20
 # 天气控件 Weather Widget
 weather:
   enable: true
 
-# 洪卫 shw2018 add 2019.09.10
+# nz2003123  add 2022.1.20
 # 鼠标点击文字特效 
 wenzi:
   enable: true
 
-# 洪卫 shw2018 add 2019.09.10
+# nz2003123  add 2022.1.20
 # 背景雪花飘落特效
 xuehuapiaoluo:
   enable: true
@@ -488,7 +488,7 @@ tidio:
   enable: true
   public_key: xxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-# 洪卫 shw2018 add 2019.09.15
+# nz2003123  add 2022.1.20
 #背景canvas-nest
 canvas_nest:
   enable: true
