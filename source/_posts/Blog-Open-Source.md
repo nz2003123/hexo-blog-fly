@@ -1,7 +1,7 @@
 ---
-title: 博客开源
-date: 2019-08-27 11:41:03
-author: 洪卫
+title: 我的第一篇博客
+date: 2022-01-20 11:41:03
+author: nz2003123
 img: 
 coverImg: /medias/banner/0.jpg
 top: true
@@ -87,11 +87,10 @@ password:
 6. 运行命令`hexo  clean`（清除生成文件），`hexo g`（生成网页）， `hexo  s`（本地预览），`hexo d`（部署）
 
 
->**更多详情教程，强烈推荐看我写的：[Hexo+Github博客搭建完全教程](https://sunhwee.com/posts/6e8839eb.html)**
+>**更多详情教程，强烈推荐看：[Hexo+Github博客搭建完全教程](https://sunhwee.com/posts/6e8839eb.html)**
 
->**最后，如果项目和教程对你有所帮助或者你看见了还算比较喜欢，欢迎给我`star`，谢谢您！**
 
-**持续更新中...，如果遇到问题欢迎联系我，在文章最后评论区【留言和讨论】，当然，欢迎点击文章最后的打赏按键，请博主一杯冰阔乐，笑～**
+**如果遇到问题欢迎联系我，在文章最后评论区【留言和讨论】，当然，欢迎点击文章最后的打赏按键，请博主一杯冰阔乐，笑～**
 <escape>
 <table>
   <tr>
