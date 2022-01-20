@@ -188,7 +188,7 @@ profile:
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的项目"信息，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 myProjects:
-  enable: true
+  enable: false
   data:
     DeepLearning-500-questions:
       icon: fa-file-text-o
@@ -466,7 +466,7 @@ sakura:
 
 # 鼠标点击烟花爆炸动效
 fireworks:
-  enable: true
+  enable: false
 
 # nz2003123  add 2022.1.20
 # 天气控件 Weather Widget
@@ -481,7 +481,7 @@ wenzi:
 # nz2003123  add 2022.1.20
 # 背景雪花飘落特效
 xuehuapiaoluo:
-  enable: true
+  enable: false
 
 # Tidio online contact 
 tidio:
