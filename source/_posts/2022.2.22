@@ -1,0 +1,66 @@
+---
+title: Cloudflare支持的 HTTP端口及HTTPS端口
+date: 2022-02-22 11:41:03
+author: nz2003123
+img: 
+coverImg: 
+top: true
+cover: true
+toc: true
+mathjax: false
+summary: 
+  倒腾了一两周总算把个人博客网站完善了，目前这个版本使用应该是够了，当然还有一些优化项和功能增加后续在慢慢更新，为了回馈开源，今天准备把我自己修改完善的`blog`网站源代码开源。这不是生成后的网页文件，是您可以直接使用的源码，您只需要把博客相关信息换成您自己的就可以部署了。
+tags:
+  - Hexo
+  - Github
+  - 博客
+categories:
+  - 软件安装与配置
+password:
+---
+
+Cloudflare 可代理通过下列 HTTP/HTTPS 端口的流量。
+
+如果您的流量位于不同的端口上，则可将其作为只使用DNS的记录添加到您的 Cloudflare DNS 页面，(灰色云 = 不使用 Cloudflare 代理或缓存)。
+
+Cloudflare支持的 HTTP 端口为：
+
+80
+
+8080
+
+8880
+
+2052
+
+2082
+
+2086
+
+2095
+
+Cloudflare 支持的 HTTPs 端口为：
+
+443
+
+2053
+
+2083
+
+2087
+
+2096
+
+8443
+
+对于 Pro 及更高级别的计划，您可以使用 WAF 规则 ID 100015 阻止非 80 和 443 端口上的流量："Block requests to all ports except 80 and 443".
+
+以下服务仅可以使用端口 80 和 443 ：
+
+对于启用了中国网络的域名的中国境内 HTTP/HTTPS 流量
+
+Cloudflare Apps
+
+进行 Cloudflare 缓存
+
+Cloudflare的映射为全端口映射，即如果你源站使用的是8443非标准端口，使用Cloudflare服务后，访问的防止后面还需要带8443。无法将非标准端口反代为标准的80或443端口。
